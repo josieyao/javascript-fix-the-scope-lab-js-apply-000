@@ -29,7 +29,7 @@ var funkyFunction = function() {
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
 
-var theFunk = funkyFunction()
+var theFunk = funkyFunction()()
 
 /*We can make the function execute by saying this: var theFunk = funkyFunction() But this returns ANOTHER FUNCTION! How would we tell that function to execute to return the string within it?*/
 
